@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.header .background {
+    height: 90%;
+    width: 100%;
+    background-image: url('https://www.sharedesk.net/images/heros/homepage/hero-home5@2x.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.header #navbar {
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.header .menu {
+    width: 0;
+    background: rgba(0, 0, 0, 0.863);
+    display: flex;
+    flex-direction: column;
+    transition: width .4s;
+    transform-origin: right;
+    height: 100%;
+    overflow-y: auto;
+}
+#haha {
+    display: flex;
+    align-items: center;
+}
+#close_X {
+    color: #fff;
+    padding-left: 40px;
+}
+.toggle__menu{
+    width: 350px!important;
+}
+.header #navbar__logo {
+    padding: 15px 0 15px 20px;
+    width: 150px;
+}
+#user {
+    color: #fff;
+}
+
+.header h3{
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: #746e65;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+.header ul li {
+    border-bottom: 1px solid #fff;
+    list-style: none;
+    padding: 15px 0 15px 20px;
+}
+.header ul li:hover{
+    background: rgba(0, 0, 0, 0.945);
+}
+.header ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.541);
+    font-weight: 400;
+}
+
+#sharedesk li:first-child{
+    border-top: 1px solid #fff;
+}
+.header ul li a span{
+   margin-left: 30px;
+}
+
+.header #sharedesk img{
+    height: 25px;
+}
+li a i{
+    font-size: 24px;
+}
+.icon {
+    font-size: 20px!important;
+}
+#menu__top li:first-child {
+    border-top: 1px solid #fff!important;
+}
+#menu__bottom {
+    display: flex;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+#menu__bottom span{
+    padding: 10px;
+}
+#menu__bottom span a{
+    color: rgba(37, 15, 15, 0.925);
+}
+#menu__bottom span a:hover{
+    color: #fff;
+}
+
+@media (max-width:678px) {
+   .toggle__menu {
+       width: 10000vw!important;
+   }
+}
+
